@@ -1,0 +1,18 @@
+/* 来源: https://github.com/SocialSisterYi/bilibili-API-collect/issues/1332#issuecomment-3047237367 (已失效)
+ * 由 @cxw620 撰写(不确定)
+ * 修改该文件时要删除该注释
+ */
+
+syntax = "proto3";
+
+package bilibili.live.component.common_model.fans_club;
+
+//
+message GroupMedalBrief {
+	//
+	int64 medal_id = 1;
+	//
+	string name = 2;
+	//
+	int64 is_lighted = 3;
+}

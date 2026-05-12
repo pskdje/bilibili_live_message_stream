@@ -28,6 +28,18 @@
 
 连接建立后要立刻发送认证包，还要定期发送心跳包。
 
+普通包常见 JSON 类型数据，也可能存在其它类型数据。
+
+## 索引
+
+- [README](README.md) 自述文件
+
+- [LICENSE](LICENSE) 许可协议
+
+- [docs](docs/) 主要文档
+
+- [protobuf](protobuf/) protobuf 文件
+
 ## 致谢
 
 本项目继承自 <s title="原项目已失效" href="https://github.com/SocialSisterYi/bilibili-API-collect">bilibili-API-collect</s> 的 <span title="/docs/live/message_stream.md">message_stream.md</span> 文件，提交 `fdc44c9db514acb25662ab73922ff3777c6ce236` 。<!-- https://github.com/pskdje/bilibili-API-collect/commit/fdc44c9db514acb25662ab73922ff3777c6ce236 -->

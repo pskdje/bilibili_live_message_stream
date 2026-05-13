@@ -24,9 +24,9 @@
 | dmscore | num |  |  |
 | pb | str | 使用 base64 编码 protobuf 后的数据 | 解析后数据基本与`INTERACT_WORD`的`data`相同 |
 
-用于解析protobuf数据的proto文件: ~~[SocialSisterYi/bilibili-API-collect#1332(comment)](https://github.com/SocialSisterYi/bilibili-API-collect/issues/1332#issuecomment-3047237367)~~(已失效)
+用于解析protobuf数据的proto文件: [bilibili.live.xuserreward.v1](../../protobuf/bilibili/live/xuserreward/v1.proto)
 
-注: 先用 base64 解码 `data.pb` 内的字符串为字节数据pb，再使用proto文件解码pb数据。
+注: 先用 base64 解码 `data.pb` 内的字符串为字节数据 pb ，再使用 proto 文件解码 pb 数据。
 
 ## 示例
 

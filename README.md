@@ -34,11 +34,17 @@
 
 - [README](README.md) 自述文件
 
+- [CONTRIBUTING](CONTRIBUTING.md) 贡献指南
+
 - [LICENSE](LICENSE) 许可协议
 
 - [docs](docs/) 主要文档
 
 - [protobuf](protobuf/) protobuf 文件
+
+## 贡献
+
+若有意为该仓库出一份力的话，请先查看 [贡献指南](CONTRIBUTING.md) 再开始。
 
 ## 致谢
 
